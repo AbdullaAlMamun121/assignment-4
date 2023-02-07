@@ -6,7 +6,7 @@ function mindGame(number) {
     let numberThree = 3;
     let numberFive = 5;
     let numberTen = 10;
-    if (typeof number !== 'number') {
+    if (typeof number !== 'number' ||  number < 0 ) {
         return 'Please enter valid number';
     }
     let multiplyByThree = number * numberThree;
@@ -15,5 +15,5 @@ function mindGame(number) {
     let substractionByFive = dividedByTow - numberFive;
     return substractionByFive;
 }
-const result = mindGame(33);
+const result = mindGame('');
 console.log(result);
