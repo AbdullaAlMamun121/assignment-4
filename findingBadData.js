@@ -2,7 +2,7 @@
  * This findingBadData() will try to catch invalid ages or negative numbers. 
  */
 
-let arrayList = [-4, -9, -5, -33, -55,-8,-9,-10];
+let arrayList = [4, 9, 5, 33, 55,8,9,10];
 
 function findingBadData(arrayNumber) {
     if (typeof arrayNumber !== 'object') {

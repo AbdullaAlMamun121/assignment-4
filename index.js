@@ -1,5 +1,5 @@
 /*
-In this function => mindGame(), we tried to find out a specific value using arithmetic operatr.
+In this function => mindGame(), we tried to find out a specific value using arithmetic operator.
 */
 function mindGame(number) {
     let numberTow = 2;
@@ -62,7 +62,7 @@ function isLGSeven(number) {
  */
 function findingBadData(arrayNumber) {
     if (typeof arrayNumber !== 'object') {
-        return 'Please enter valid number';
+        return 'Please enter valid array';
     }
     let badValueList=0;
     for (let i = 0; i < arrayNumber.length; i++) {
