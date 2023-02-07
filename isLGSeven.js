@@ -1,4 +1,6 @@
-// isLGSeven()
+/**
+ * The isLGSeven() function performas a specific task that's met if the number is greater or less than seven. 
+ */
 
 function isLGSeven(number) {
 
@@ -14,5 +16,5 @@ function isLGSeven(number) {
     }
 
 }
-const re = isLGSeven('name');
+const re = isLGSeven(15);
 console.log(re);

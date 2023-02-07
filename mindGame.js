@@ -1,5 +1,6 @@
-//  “mindGame()”
-
+/*
+In this function => mindGame(), we tried to find out a specific value using arithmetic operatr.
+*/
 function mindGame(number) {
     let numberTow = 2;
     let numberThree = 3;
@@ -14,5 +15,5 @@ function mindGame(number) {
     let substractionByFive = dividedByTow - numberFive;
     return substractionByFive;
 }
-const result = mindGame('');
+const result = mindGame(33);
 console.log(result);
